@@ -1,0 +1,378 @@
+(0002,0000) UL 214                                      #   4, 1 FileMetaInformationGroupLength
+(0002,0001) OB 00\01                                    #   2, 1 FileMetaInformationVersion
+(0002,0002) UI =MRImageStorage                          #  26, 1 MediaStorageSOPClassUID
+(0002,0003) UI [1.2.840.113619.2.388.57473.14116885.12501.1593061387.506] #  56, 1 MediaStorageSOPInstanceUID
+(0002,0010) UI =LittleEndianExplicit                    #  20, 1 TransferSyntaxUID
+(0002,0012) UI [1.2.826.0.1.3680043.8.492.0.3.6.0]      #  34, 1 ImplementationClassUID
+(0002,0013) SH [NAUTILUS_V4]                            #  12, 1 ImplementationVersionName
+(0002,0016) AE [mr01]                                   #   4, 1 SourceApplicationEntityTitle
+(0008,0000) UL 924                                      #   4, 1 GenericGroupLength
+(0008,0005) CS [ISO_IR 100]                             #  10, 1 SpecificCharacterSet
+(0008,0008) CS [ORIGINAL\PRIMARY\OTHER]                 #  22, 3 ImageType
+(0008,0016) UI =MRImageStorage                          #  26, 1 SOPClassUID
+(0008,0018) UI [1.2.840.113619.2.388.57473.14116885.12501.1593061387.506] #  56, 1 SOPInstanceUID
+(0008,0020) DA [20200625]                               #   8, 1 StudyDate
+(0008,0021) DA [20200625]                               #   8, 1 SeriesDate
+(0008,0022) DA [20200625]                               #   8, 1 AcquisitionDate
+(0008,0023) DA [20200625]                               #   8, 1 ContentDate
+(0008,0030) TM [182331]                                 #   6, 1 StudyTime
+(0008,0031) TM [182756]                                 #   6, 1 SeriesTime
+(0008,0032) TM [182756]                                 #   6, 1 AcquisitionTime
+(0008,0033) TM [182756]                                 #   6, 1 ContentTime
+(0008,0050) SH [RAM52805]                               #   8, 1 AccessionNumber
+(0008,0060) CS [MR]                                     #   2, 1 Modality
+(0008,0070) LO [GE MEDICAL SYSTEMS]                     #  18, 1 Manufacturer
+(0008,0080) LO [INTERSERVISAN]                          #  14, 1 InstitutionName
+(0008,0090) PN [DR CORDOS^ANGELA]                       #  16, 1 ReferringPhysicianName
+(0008,1010) SH [mr01]                                   #   4, 1 StationName
+(0008,1030) LO [IRM COLOANA VERTEBRALA 1 REGIUNE NATIV] #  38, 1 StudyDescription
+(0008,103e) LO [Sag T2 frFSE]                           #  12, 1 SeriesDescription
+(0008,1060) PN [BARSAN^CRISTIAN]                        #  16, 1 NameOfPhysiciansReadingStudy
+(0008,1070) PN [STAN^DANA]                              #  10, 1 OperatorsName
+(0008,1090) LO [Brivo MR355]                            #  12, 1 ManufacturerModelName
+(0008,1111) SQ (Sequence with undefined length #=1)     # u/l, 1 ReferencedPerformedProcedureStepSequence
+  (fffe,e000) na (Item with undefined length #=3)         # u/l, 1 Item
+    (0008,0000) UL 100                                      #   4, 1 GenericGroupLength
+    (0008,1150) UI =ModalityPerformedProcedureStepSOPClass  #  24, 1 ReferencedSOPClassUID
+    (0008,1155) UI [1.2.840.113619.6.388.290221939651369037773198175681301776144] #  60, 1 ReferencedSOPInstanceUID
+  (fffe,e00d) na (ItemDelimitationItem)                   #   0, 0 ItemDelimitationItem
+(fffe,e0dd) na (SequenceDelimitationItem)               #   0, 0 SequenceDelimitationItem
+(0008,1140) SQ (Sequence with undefined length #=2)     # u/l, 1 ReferencedImageSequence
+  (fffe,e000) na (Item with undefined length #=3)         # u/l, 1 Item
+    (0008,0000) UL 98                                       #   4, 1 GenericGroupLength
+    (0008,1150) UI =MRImageStorage                          #  26, 1 ReferencedSOPClassUID
+    (0008,1155) UI [1.2.840.113619.2.388.57473.14116885.12501.1593061386.980] #  56, 1 ReferencedSOPInstanceUID
+  (fffe,e00d) na (ItemDelimitationItem)                   #   0, 0 ItemDelimitationItem
+  (fffe,e000) na (Item with undefined length #=3)         # u/l, 1 Item
+    (0008,0000) UL 98                                       #   4, 1 GenericGroupLength
+    (0008,1150) UI =MRImageStorage                          #  26, 1 ReferencedSOPClassUID
+    (0008,1155) UI [1.2.840.113619.2.388.57473.14116885.12501.1593061386.970] #  56, 1 ReferencedSOPInstanceUID
+  (fffe,e00d) na (ItemDelimitationItem)                   #   0, 0 ItemDelimitationItem
+(fffe,e0dd) na (SequenceDelimitationItem)               #   0, 0 SequenceDelimitationItem
+(0009,0000) UL 146                                      #   4, 1 PrivateGroupLength
+(0009,0010) LO [GEMS_IDEN_01]                           #  12, 1 PrivateCreator
+(0009,1002) SH [mr01]                                   #   4, 1 Unknown Tag & Data
+(0009,1004) SH [SIGNA]                                  #   6, 1 Unknown Tag & Data
+(0009,1027) SL 1593109676                               #   4, 1 Unknown Tag & Data
+(0009,1030) SH [RO1248MR01]                             #  10, 1 Unknown Tag & Data
+(0009,1031) SH [9999]                                   #   4, 1 Unknown Tag & Data
+(0009,10e3) UI [1.2.840.113619.1.388.5.57473.14116885]  #  38, 1 Unknown Tag & Data
+(0009,10e9) SL 1593109676                               #   4, 1 Unknown Tag & Data
+(0010,0000) UL 120                                      #   4, 1 GenericGroupLength
+(0010,0010) PN [GAVRILOVICI^EDUARD]                     #  18, 1 PatientName
+(0010,0020) LO [1970425394440]                          #  14, 1 PatientID
+(0010,0021) LO [RAMSOFT]                                #   8, 1 IssuerOfPatientID
+(0010,0030) DA [19970425]                               #   8, 1 PatientBirthDate
+(0010,0040) CS [M]                                      #   2, 1 PatientSex
+(0010,1010) AS [023Y]                                   #   4, 1 PatientAge
+(0010,1030) DS [80]                                     #   2, 1 PatientWeight
+(0010,21b0) LT (no value available)                     #   0, 0 AdditionalPatientHistory
+(0018,0000) UL 510                                      #   4, 1 GenericGroupLength
+(0018,0020) CS [SE]                                     #   2, 1 ScanningSequence
+(0018,0021) CS [SK\OSP]                                 #   6, 2 SequenceVariant
+(0018,0022) CS [FAST_GEMS\SAT_GEMS\NPW\EDR_GEMS\TRF_GEMS\FILTERED_GEMS\SP\FSP_GEMS] #  66, 8 ScanOptions
+(0018,0023) CS [2D]                                     #   2, 1 MRAcquisitionType
+(0018,0025) CS [N]                                      #   2, 1 AngioFlag
+(0018,0050) DS [3]                                      #   2, 1 SliceThickness
+(0018,0080) DS [2978]                                   #   4, 1 RepetitionTime
+(0018,0081) DS [119.232]                                #   8, 1 EchoTime
+(0018,0083) DS [2]                                      #   2, 1 NumberOfAverages
+(0018,0084) DS [63.860989]                              #  10, 1 ImagingFrequency
+(0018,0085) SH [1H]                                     #   2, 1 ImagedNucleus
+(0018,0086) IS [1]                                      #   2, 1 EchoNumbers
+(0018,0087) DS [1.5]                                    #   4, 1 MagneticFieldStrength
+(0018,0088) DS [4]                                      #   2, 1 SpacingBetweenSlices
+(0018,0091) IS [16]                                     #   2, 1 EchoTrainLength
+(0018,0093) DS [100]                                    #   4, 1 PercentSampling
+(0018,0094) DS [100]                                    #   4, 1 PercentPhaseFieldOfView
+(0018,0095) DS [108.516]                                #   8, 1 PixelBandwidth
+(0018,1000) LO [000000RO1248MR01]                       #  16, 1 DeviceSerialNumber
+(0018,1020) LO [25\LX\MR Software release:SV25.0_R08_1822.b] #  44, 3 SoftwareVersions
+(0018,1030) LO [SPINE -TH DS]                           #  12, 1 ProtocolName
+(0018,1088) IS [0]                                      #   2, 1 HeartRate
+(0018,1090) IS [0]                                      #   2, 1 CardiacNumberOfImages
+(0018,1094) IS [0]                                      #   2, 1 TriggerWindow
+(0018,1100) DS [340]                                    #   4, 1 ReconstructionDiameter
+(0018,1250) SH [CTspineArray]                           #  12, 1 ReceiveCoilName
+(0018,1310) US 384\0\0\224                              #   8, 4 AcquisitionMatrix
+(0018,1312) CS [COL]                                    #   4, 1 InPlanePhaseEncodingDirection
+(0018,1314) DS [160]                                    #   4, 1 FlipAngle
+(0018,1315) CS [N]                                      #   2, 1 VariableFlipAngleFlag
+(0018,1316) DS [1.3318]                                 #   6, 1 SAR
+(0018,5100) CS [HFS]                                    #   4, 1 PatientPosition
+(0019,0000) UL 1164                                     #   4, 1 PrivateGroupLength
+(0019,0010) LO [GEMS_ACQU_01]                           #  12, 1 PrivateCreator
+(0019,100f) DS [521.799988]                             #  10, 1 Unknown Tag & Data
+(0019,1011) SS 0                                        #   2, 1 Unknown Tag & Data
+(0019,1012) SS 56                                       #   2, 1 Unknown Tag & Data
+(0019,1017) SS 16                                       #   2, 1 Unknown Tag & Data
+(0019,1018) LO [R]                                      #   2, 1 Unknown Tag & Data
+(0019,1019) DS [24.2777]                                #   8, 1 Unknown Tag & Data
+(0019,101a) LO [L]                                      #   2, 1 Unknown Tag & Data
+(0019,101b) DS [-31.7194]                               #   8, 1 Unknown Tag & Data
+(0019,101e) DS [340.000000]                             #  10, 1 Unknown Tag & Data
+(0019,105a) FL 1.72924e+08                              #   4, 1 Unknown Tag & Data
+(0019,107d) DS [0]                                      #   2, 1 Unknown Tag & Data
+(0019,107e) SS 1                                        #   2, 1 Unknown Tag & Data
+(0019,107f) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,1081) SS 1                                        #   2, 1 Unknown Tag & Data
+(0019,1084) DS [2.663664]                               #   8, 1 Unknown Tag & Data
+(0019,1087) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,1088) SS 0                                        #   2, 1 Unknown Tag & Data
+(0019,108a) SS 13                                       #   2, 1 Unknown Tag & Data
+(0019,108b) SS 29                                       #   2, 1 Unknown Tag & Data
+(0019,108d) DS [0]                                      #   2, 1 Unknown Tag & Data
+(0019,108f) SS 1                                        #   2, 1 Unknown Tag & Data
+(0019,1090) SS 0                                        #   2, 1 Unknown Tag & Data
+(0019,1091) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,1092) SL 0                                        #   4, 1 Unknown Tag & Data
+(0019,1093) DS [638609890]                              #  10, 1 Unknown Tag & Data
+(0019,1094) SS 197                                      #   2, 1 Unknown Tag & Data
+(0019,1095) SS 13                                       #   2, 1 Unknown Tag & Data
+(0019,1096) SS 29                                       #   2, 1 Unknown Tag & Data
+(0019,1097) SL 2130112                                  #   4, 1 Unknown Tag & Data
+(0019,109b) SS 1                                        #   2, 1 Unknown Tag & Data
+(0019,109c) LO [frfseopt]                               #   8, 1 Unknown Tag & Data
+(0019,109d) DT [20180611161849]                         #  14, 1 Unknown Tag & Data
+(0019,109e) LO (no value available)                     #   0, 0 Unknown Tag & Data
+(0019,109f) SS 3                                        #   2, 1 Unknown Tag & Data
+(0019,10a0) SS 0                                        #   2, 1 Unknown Tag & Data
+(0019,10a1) SS 0                                        #   2, 1 Unknown Tag & Data
+(0019,10a2) SL 72704                                    #   4, 1 Unknown Tag & Data
+(0019,10a3) UL 0                                        #   4, 1 Unknown Tag & Data
+(0019,10a4) SS 0                                        #   2, 1 Unknown Tag & Data
+(0019,10a7) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10a8) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10a9) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10aa) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10ab) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10ac) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10ad) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10ae) DS [1.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10af) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10b0) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10b1) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10b2) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10b3) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10b4) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10b5) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10b6) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10b7) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10b8) DS [1.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10b9) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10ba) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10bb) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10bc) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10bd) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10be) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10c0) SS 2048                                     #   2, 1 Unknown Tag & Data
+(0019,10c2) SS 9990                                     #   2, 1 Unknown Tag & Data
+(0019,10c3) SS 9990                                     #   2, 1 Unknown Tag & Data
+(0019,10c4) SS 9990                                     #   2, 1 Unknown Tag & Data
+(0019,10c5) SS 620                                      #   2, 1 Unknown Tag & Data
+(0019,10c6) SS 9990                                     #   2, 1 Unknown Tag & Data
+(0019,10c7) SS 9990                                     #   2, 1 Unknown Tag & Data
+(0019,10c8) SS 0                                        #   2, 1 Unknown Tag & Data
+(0019,10c9) SS 0                                        #   2, 1 Unknown Tag & Data
+(0019,10ca) SS 0                                        #   2, 1 Unknown Tag & Data
+(0019,10cb) SS 0                                        #   2, 1 Unknown Tag & Data
+(0019,10cc) SS 0                                        #   2, 1 Unknown Tag & Data
+(0019,10cd) SS 0                                        #   2, 1 Unknown Tag & Data
+(0019,10ce) SS 2                                        #   2, 1 Unknown Tag & Data
+(0019,10cf) SS 16                                       #   2, 1 Unknown Tag & Data
+(0019,10d2) SS 0                                        #   2, 1 Unknown Tag & Data
+(0019,10d3) SH (no value available)                     #   0, 0 Unknown Tag & Data
+(0019,10d5) SS 2                                        #   2, 1 Unknown Tag & Data
+(0019,10d7) SS 0                                        #   2, 1 Unknown Tag & Data
+(0019,10d8) SS 0                                        #   2, 1 Unknown Tag & Data
+(0019,10d9) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10df) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10e0) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10e2) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0019,10f2) SS 0                                        #   2, 1 Unknown Tag & Data
+(0019,10f9) DS [197]                                    #   4, 1 Unknown Tag & Data
+(0020,0000) UL 358                                      #   4, 1 GenericGroupLength
+(0020,000d) UI [1.2.124.113540.0.201411052775.3.52805]  #  38, 1 StudyInstanceUID
+(0020,000e) UI [1.2.840.113619.2.388.57473.14116885.13499.1593061356.162] #  56, 1 SeriesInstanceUID
+(0020,0010) SH [24995]                                  #   6, 1 StudyID
+(0020,0011) IS [4]                                      #   2, 1 SeriesNumber
+(0020,0012) IS [1]                                      #   2, 1 AcquisitionNumber
+(0020,0013) IS [1]                                      #   2, 1 InstanceNumber
+(0020,0032) DS [-22.5659\-140.293\46.1913]              #  26, 3 ImagePositionPatient
+(0020,0037) DS [-0\1\0\-0.010089\-0\-0.999949]          #  30, 6 ImageOrientationPatient
+(0020,0052) UI [1.2.840.113619.2.388.57473.14116885.13499.1593061356.158] #  56, 1 FrameOfReferenceUID
+(0020,0060) CS (no value available)                     #   0, 0 Laterality
+(0020,1002) IS [15]                                     #   2, 1 ImagesInAcquisition
+(0020,1040) LO (no value available)                     #   0, 0 PositionReferenceIndicator
+(0020,1041) DS [24.27770233]                            #  12, 1 SliceLocation
+(0020,9056) SH [1]                                      #   2, 1 StackID
+(0020,9057) UL 1                                        #   4, 1 InStackPositionNumber
+(0021,0000) UL 298                                      #   4, 1 PrivateGroupLength
+(0021,0010) LO [GEMS_RELA_01]                           #  12, 1 PrivateCreator
+(0021,1035) SS 1                                        #   2, 1 Unknown Tag & Data
+(0021,1036) SS 13                                       #   2, 1 Unknown Tag & Data
+(0021,1037) SS 16                                       #   2, 1 Unknown Tag & Data
+(0021,104f) SS 15                                       #   2, 1 Unknown Tag & Data
+(0021,1050) SS 0                                        #   2, 1 Unknown Tag & Data
+(0021,1051) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0021,1052) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0021,1053) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0021,1056) SL 0                                        #   4, 1 Unknown Tag & Data
+(0021,1057) SL 0                                        #   4, 1 Unknown Tag & Data
+(0021,1058) SL 0                                        #   4, 1 Unknown Tag & Data
+(0021,1059) SL 0                                        #   4, 1 Unknown Tag & Data
+(0021,105a) SL 0                                        #   4, 1 Unknown Tag & Data
+(0021,105b) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0021,105c) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0021,105d) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0021,105e) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0021,105f) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0021,1081) DS [0]                                      #   2, 1 Unknown Tag & Data
+(0021,1082) DS [0]                                      #   2, 1 Unknown Tag & Data
+(0021,1083) DS [0]                                      #   2, 1 Unknown Tag & Data
+(0021,1084) DS [0]                                      #   2, 1 Unknown Tag & Data
+(0023,0000) UL 114                                      #   4, 1 PrivateGroupLength
+(0023,0010) LO [GEMS_STDY_01]                           #  12, 1 PrivateCreator
+(0023,1070) FD 0                                        #   8, 1 Unknown Tag & Data
+(0023,1074) SL 0                                        #   4, 1 Unknown Tag & Data
+(0023,107d) SS 0                                        #   2, 1 Unknown Tag & Data
+(0023,1080) SQ (Sequence with undefined length #=1)     # u/l, 1 Unknown Tag & Data
+  (fffe,e000) na (Item with undefined length #=2)         # u/l, 1 Item
+    (0040,0000) UL 8                                        #   4, 1 GenericGroupLength
+    (0040,0255) LO (no value available)                     #   0, 0 PerformedProcedureTypeDescription
+  (fffe,e00d) na (ItemDelimitationItem)                   #   0, 0 ItemDelimitationItem
+(fffe,e0dd) na (SequenceDelimitationItem)               #   0, 0 SequenceDelimitationItem
+(0025,0000) UL 1138                                     #   4, 1 PrivateGroupLength
+(0025,0010) LO [GEMS_SERS_01]                           #  12, 1 PrivateCreator
+(0025,1006) SS 56                                       #   2, 1 Unknown Tag & Data
+(0025,1007) SL 15                                       #   4, 1 Unknown Tag & Data
+(0025,1010) SL 0                                        #   4, 1 Unknown Tag & Data
+(0025,1011) SS 1                                        #   2, 1 Unknown Tag & Data
+(0025,1014) SL 0                                        #   4, 1 Unknown Tag & Data
+(0025,1017) SL 0                                        #   4, 1 Unknown Tag & Data
+(0025,1018) SL 0                                        #   4, 1 Unknown Tag & Data
+(0025,1019) SL 15                                       #   4, 1 Unknown Tag & Data
+(0025,101a) SH [mr01mr01]                               #   8, 1 Unknown Tag & Data
+(0025,101b) OB e2\03\00\00\1f\8b\08\08\7c\c2\f4\5e\00\03\45\78\32\34\39\39\35\53\65\72\34\52\78\00\8d\55\4d\6f\e3\36\10\bd\eb\57\10\3c\b5\40\ac\ea\d3\b2\b1\27\9a\a2\64\22\94\c8\90\94\3f\7a\31\d2\ad\bb\08\9a\6e\16\76\76\d1\fd\f7\1d\92\b2\15\27\97\fa\62\be\37\a3\c7\e1\70\66\a8\a4\e1\96\cb\1e\61\f3\fd\db\d3\d7\23\8e\58\6f\f5\1e\e1\f5\f1\f1\4f\d4\3c\9d\ce\af\38\a2\82\f7\9c\12\41\25\17\08\d3\59\cb\0e\d4\9e\9d\3b\39\9d\1e\7f\82\43\30\7c\e0\a8\ec\94\ec\41\11\61\f6\ef\b7\d3\f1\7c\46\5e\b7\3f\7e\fe\1b\79\3f\f4\c7\4f\d4\b2\4f\17\ab\71\02\6f\2d\38\52\82\f4\0c\61\b9\12\fc\61\00\6c\58\cd\0c\85\78\1f\bf\20\9b\a1\bf\4e\8d\01\73\b4\96\06\e1\04\47\bc\93\35\e0\ac\86\2f\0d\7b\40\b8\d1\e0\30\db\09\30\49\05\81\f4\6a\7b\87\58\ad\ef\90\d5\cd\1d\6a\1e\cf\af\77\e8\77\ae\ca\34\03\a4\dd\86\43\0b\02\39\8e\1a\2e\2c\5d\4b\4e\41\90\e2\68\b5\d5\f0\fd\2c\c5\91\d5\9c\de\1b\de\81\1f\20\43\ac\90\74\9f\21\4c\e6\59\9c\78\c2\ae\c1\c3\51\45\e2\18\4b\da\83\51\c4\09\55\01\d9\bd\02\d0\bf\b8\94\0f\86\69\ba\99\43\fc\71\92\5c\60\05\da\6f\60\5a\de\9a\b3\f4\16\1f\3a\62\ee\21\ec\34\4f\d2\34\bb\61\33\9f\98\7e\e8\56\1b\22\06\e6\63\ee\06\61\f9\15\27\09\48\7d\1a\d9\9e\ed\2e\3c\50\9a\f9\ac\c1\27\8d\e0\8a\f4\ee\c8\73\90\23\83\95\13\03\67\72\fe\a9\3f\6c\cf\20\69\81\d4\10\d1\b2\5a\38\96\59\e1\3e\85\34\aa\2e\dc\d1\a8\62\75\1b\92\91\b8\2b\ab\21\b7\ad\5f\1b\01\89\97\ba\66\da\6b\6d\38\db\4e\c8\6a\cd\8c\f5\7e\56\13\6a\f9\26\08\18\06\b7\ae\39\33\6f\e4\79\bb\e5\bd\c7\8d\dc\20\9c\17\fe\8e\84\bf\22\80\1e\29\ea\d3\8d\a3\56\ef\fc\81\bd\8b\a4\90\65\9d\15\71\1e\10\64\52\65\cb\b8\08\28\47\98\a7\59\1e\97\70\b8\e0\2a\f2\34\ae\02\9a\5c\d9\d5\d5\6f\dc\4b\23\dc\66\a5\13\c9\c7\ea\4e\26\90\de\a0\ec\06\e5\01\29\aa\98\be\3a\c7\b7\54\f6\91\ca\47\aa\23\90\8c\dd\0e\ce\bc\28\2e\08\5a\3d\cb\dc\81\b6\44\a9\06\4a\f8\37\e5\6e\10\9c\0a\5f\5d\54\c2\3c\20\2e\d5\fd\4b\40\a4\73\6b\04\3f\c8\fd\4a\d4\4c\58\72\a9\45\b5\26\86\f9\2c\87\da\d5\ab\2d\e8\57\71\b5\08\97\61\d6\1c\be\26\df\5f\5f\46\5f\2a\35\5c\e8\fe\78\06\4c\06\d7\db\c2\95\2c\a1\0f\fe\9a\5b\cd\d5\c1\88\56\cb\41\c1\59\67\79\5c\65\c9\62\be\44\33\c8\6d\5e\15\65\9e\a2\99\bb\83\aa\4c\ca\a4\40\b3\24\5e\c2\af\58\22\17\8f\fb\39\2a\81\02\5f\78\ea\ba\b8\da\3e\b8\a7\97\d5\95\82\d6\9b\d6\d3\32\19\c3\83\c6\1a\23\34\6f\62\26\d6\53\90\fa\2a\ce\8b\bc\2a\91\9b\0d\79\9a\95\b0\05\2c\03\37\8a\85\40\16\79\ee\88\b2\aa\e6\57\c3\ff\fd\9f\4d\44\10\9a\5d\94\8a\d1\32\06\e6\ba\e5\de\35\d1\85\30\8a\51\ab\e5\44\c0\79\94\a1\1b\29\26\2a\e0\f4\3d\91\bd\27\fc\cd\5f\12\74\63\19\9b\ed\9d\8d\eb\15\e9\eb\03\99\74\46\66\75\6d\5f\33\ac\a0\1f\e1\85\9a\3a\da\50\4e\7d\a6\1d\d8\84\f1\ec\6a\0f\26\02\b3\50\40\64\7f\ad\77\73\ef\ab\cc\db\3d\72\35\36\ee\b6\83\be\34\64\33\0d\a2\f0\8a\01\80\27\cb\ca\81\ae\35\0b\93\c8\32\78\c6\34\11\5e\0b\e2\70\cd\c3\da\46\bb\e7\c5\cd\c2\5a\c3\f8\d1\a4\53\08\97\89\b7\d5\5c\7b\b7\60\99\3c\75\e3\99\30\ff\cc\d3\d7\2f\cf\30\fe\79\af\61\8a\32\ab\c7\71\d6\b9\69\95\2d\92\f0\72\e8\8e\b8\8e\2d\02\64\3b\ca\2d\71\f9\18\35\8e\cf\c7\cf\af\4f\3f\bc\0c\6c\65\1b\d7\9c\a7\7f\1e\9f\d1\2f\ea\57\1c\fd\07\d4\00\e0\11\e0\07\00\00 # 998, 1 Unknown Tag & Data
+(0027,0000) UL 150                                      #   4, 1 PrivateGroupLength
+(0027,0010) LO [GEMS_IMAG_01]                           #  12, 1 PrivateCreator
+(0027,1006) SL 0                                        #   4, 1 Unknown Tag & Data
+(0027,1010) SS 0                                        #   2, 1 Unknown Tag & Data
+(0027,1030) SH (no value available)                     #   0, 0 Unknown Tag & Data
+(0027,1031) SS 1                                        #   2, 1 Unknown Tag & Data
+(0027,1032) SS 56                                       #   2, 1 Unknown Tag & Data
+(0027,1033) UL 1207961760                               #   4, 1 Unknown Tag & Data
+(0027,1035) SS 16                                       #   2, 1 Unknown Tag & Data
+(0027,1040) SH [R]                                      #   2, 1 Unknown Tag & Data
+(0027,1041) FL 24.277702                                #   4, 1 Unknown Tag & Data
+(0027,1060) FL 384                                      #   4, 1 Unknown Tag & Data
+(0027,1061) FL 224                                      #   4, 1 Unknown Tag & Data
+(0027,1062) FL 4                                        #   4, 1 Unknown Tag & Data
+(0028,0000) UL 156                                      #   4, 1 GenericGroupLength
+(0028,0002) US 1                                        #   2, 1 SamplesPerPixel
+(0028,0004) CS [MONOCHROME2]                            #  12, 1 PhotometricInterpretation
+(0028,0010) US 512                                      #   2, 1 Rows
+(0028,0011) US 512                                      #   2, 1 Columns
+(0028,0030) DS [0.6641\0.6641]                          #  14, 2 PixelSpacing
+(0028,0100) US 16                                       #   2, 1 BitsAllocated
+(0028,0101) US 16                                       #   2, 1 BitsStored
+(0028,0102) US 15                                       #   2, 1 HighBit
+(0028,0103) US 1                                        #   2, 1 PixelRepresentation
+(0028,0106) SS 0                                        #   2, 1 SmallestImagePixelValue
+(0028,0107) SS 2515                                     #   2, 1 LargestImagePixelValue
+(0028,1050) DS [1257]                                   #   4, 1 WindowCenter
+(0028,1051) DS [2515]                                   #   4, 1 WindowWidth
+(0029,0000) UL 102                                      #   4, 1 PrivateGroupLength
+(0029,0010) LO [GEMS_IMPS_01]                           #  12, 1 PrivateCreator
+(0029,1015) SL 0                                        #   4, 1 Unknown Tag & Data
+(0029,1016) SL 0                                        #   4, 1 Unknown Tag & Data
+(0029,1017) SL 0                                        #   4, 1 Unknown Tag & Data
+(0029,1018) SL 0                                        #   4, 1 Unknown Tag & Data
+(0029,1026) SS 2                                        #   2, 1 Unknown Tag & Data
+(0029,1034) SL 16384                                    #   4, 1 Unknown Tag & Data
+(0029,1035) SL 0                                        #   4, 1 Unknown Tag & Data
+(0040,0000) UL 424                                      #   4, 1 GenericGroupLength
+(0040,0242) SH [mr01]                                   #   4, 1 PerformedStationName
+(0040,0243) SH [mr01]                                   #   4, 1 PerformedLocation
+(0040,0244) DA [20200625]                               #   8, 1 PerformedProcedureStepStartDate
+(0040,0245) TM [182324]                                 #   6, 1 PerformedProcedureStepStartTime
+(0040,0253) SH [7973.1593098604]                        #  16, 1 PerformedProcedureStepID
+(0040,0254) LO [IRM COLOANA VERTEBRALA 1 REGIUNE NATIV] #  38, 1 PerformedProcedureStepDescription
+(0040,0275) SQ (Sequence with undefined length #=1)     # u/l, 1 RequestAttributesSequence
+  (fffe,e000) na (Item with undefined length #=7)         # u/l, 1 Item
+    (0032,0000) UL 46                                       #   4, 1 GenericGroupLength
+    (0032,1060) LO [IRM COLOANA VERTEBRALA 1 REGIUNE NATIV] #  38, 1 RequestedProcedureDescription
+    (0040,0000) UL 194                                      #   4, 1 GenericGroupLength
+    (0040,0007) LO [IRM COLOANA VERTEBRALA 1 REGIUNE NATIV] #  38, 1 ScheduledProcedureStepDescription
+    (0040,0008) SQ (Sequence with undefined length #=1)     # u/l, 1 ScheduledProtocolCodeSequence
+      (fffe,e000) na (Item with undefined length #=4)         # u/l, 1 Item
+        (0008,0000) UL 70                                       #   4, 1 GenericGroupLength
+        (0008,0100) SH [DCM]                                    #   4, 1 CodeValue
+        (0008,0102) SH [DCM]                                    #   4, 1 CodingSchemeDesignator
+        (0008,0104) LO [IRM COLOANA VERTEBRALA 1 REGIUNE NATIV] #  38, 1 CodeMeaning
+      (fffe,e00d) na (ItemDelimitationItem)                   #   0, 0 ItemDelimitationItem
+    (fffe,e0dd) na (SequenceDelimitationItem)               #   0, 0 SequenceDelimitationItem
+    (0040,0009) SH [RAM52805]                               #   8, 1 ScheduledProcedureStepID
+    (0040,1001) SH [52805]                                  #   6, 1 RequestedProcedureID
+  (fffe,e00d) na (ItemDelimitationItem)                   #   0, 0 ItemDelimitationItem
+(fffe,e0dd) na (SequenceDelimitationItem)               #   0, 0 SequenceDelimitationItem
+(0043,0000) UL 9086                                     #   4, 1 PrivateGroupLength
+(0043,0010) LO [GEMS_PARM_01]                           #  12, 1 PrivateCreator
+(0043,1001) SS 7                                        #   2, 1 Unknown Tag & Data
+(0043,1002) SS 5                                        #   2, 1 Unknown Tag & Data
+(0043,1003) SS 4                                        #   2, 1 Unknown Tag & Data
+(0043,1004) SS -4                                       #   2, 1 Unknown Tag & Data
+(0043,1006) SS 0                                        #   2, 1 Unknown Tag & Data
+(0043,1007) SS 0                                        #   2, 1 Unknown Tag & Data
+(0043,1008) SS 0                                        #   2, 1 Unknown Tag & Data
+(0043,1009) SS 0                                        #   2, 1 Unknown Tag & Data
+(0043,100a) SS 1                                        #   2, 1 Unknown Tag & Data
+(0043,100b) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0043,100c) DS [100.000000]                             #  10, 1 Unknown Tag & Data
+(0043,100d) DS [68.448341]                              #  10, 1 Unknown Tag & Data
+(0043,100e) DS [0.000000]                               #   8, 1 Unknown Tag & Data
+(0043,1010) US 0                                        #   2, 1 Unknown Tag & Data
+(0043,101c) SS 0                                        #   2, 1 Unknown Tag & Data
+(0043,101d) SS 0                                        #   2, 1 Unknown Tag & Data
+(0043,1028) OB 4d\52\20\52\65\63\6f\6e\20\3c\30\3e\00\2f\32\34\39\39\35\2f\34\2f\31\00\26\30\14\01\00\00\00\00\f6\6d\56\01\00\00\00\00\40\19\7a\03\00\00\00\00\01\00\00\00\00\00\00\00\d5\60\20\01\00\00\00\00\20\dd\17\18\c4\7f\00\00\c6\15\3e\01\00\00\00\00 #  80, 1 Unknown Tag & Data
+(0043,1029) OB 01\00\00\00\d7\8a\6f\43\76\00\00\00\d3\09\00\00\00\00\fe\03\02\12\78\02\2c\02\84\02\bd\02\0a\03\09\03\51\04\7b\0b\b9\1c\6f\38\c2\50\e8\59\23\4e\15\3d\14\2c\fb\21\6d\1a\fb\15\30\13\db\11\82\10\70\0f\e2\0d\f3\0c\f4\0b\a9\0a\23\0a\45\09\7a\08\2c\08\fe\07\2b\07\09\07\3e\06\09\06\1f\06\a1\05\7d\05\9f\05\97\05\51\05\70\05\db\04\0f\05\c5\04\6a\04\4e\04\6c\04\81\04\46\04\14\04\07\04\ec\03\e4\03\46\03\65\03\58\03\20\03\b8\02\ac\02\86\02\4a\02\2c\02\19\02\c3\01\b7\01\c8\01\a0\01\92\01\5e\01\64\01\3e\01\31\01\42\01\18\01\2e\01\24\01\09\01\09\01\1b\01\fc\00\f5\00\df\00\df\00\06\01\e5\00\dc\00\e5\00\d4\00\de\00\c9\00\fc\00\dc\00\e1\00\bd\00\c5\00\da\00\d1\00\d2\00\c5\00\d0\00\c9\00\e2\00\d3\00\b9\00\ca\00\d8\00\cf\00\c5\00\d3\00\c5\00\c9\00\b9\00\c1\00\bb\00\ca\00\c9\00\c5\00\c8\00\d2\00\c2\00\da\00\cc\00\d2\00\b7\00\d3\00\b6\00\b3\00\bb\00\a7\00\b6\00\a0\00\95\00\a7\00\9c\00\af\00\b4\00\97\00\97\00\a5\00\99\00\95\00\80\00\8a\00\8c\00\79\00\91\00\85\00\72\00\8c\00\84\00\8e\00\87\00\96\00\7d\00\8d\00\73\00\82\00\8e\00\7d\00\72\00\6d\00\62\00\6e\00\77\00\6a\00\72\00\6f\00\7f\00\6f\00\5c\00\82\00\7e\00\78\00\63\00\6d\00\62\00\75\00\4f\00\5d\00\4f\00\58\00\67\00\73\00\50\00\5c\00\60\00\71\00\5b\00\4d\00\60\00\4a\00\62\00\65\00\5b\00\4b\00\53\00\5c\00\5b\00\4d\00\3a\00\69\00\44\00\62\00\44\00\45\00\46\00\3f\00\51\00\3f\00\46\00\4b\00\47\00\41\00\48\00\58\00\49\00\3e\00\38\00\45\00\58\00\37\00\44\00\40\00\39\00\40\00\3d\00\3c\00\41\00\39\00\30\00\36\00\30\00\36\00\34\00\2e\00\2c\00\39\00\39\00\2a\00\35\00\34\00\27\00\2e\00\2d\00\23\00\2a\00\25\00\2e\00\33\00\2f\00\2c\00\1e\00\2c\00\28\00\2c\00\31\00\1c\00\23\00\31\00\2b\00\24\00\21\00\31\00\3a\00\2b\00\28\00\2b\00\2a\00\2c\00\2b\00\1a\00\1f\00\2d\00\25\00\1d\00\1f\00\2d\00\28\00\1f\00\2e\00\23\00\1d\00\24\00\25\00\31\00\2b\00\2f\00\24\00\31\00\2e\00\23\00\19\00\1c\00\29\00\1f\00\22\00\26\00\18\00\24\00\17\00\2c\00\1f\00\1d\00\23\00\1b\00\24\00\25\00\1f\00\1a\00\20\00\24\00\26\00\28\00\29\00\22\00\21\00\26\00\26\00\1d\00\19\00\22\00\14\00\19\00\17\00\1d\00\1e\00\20\00\11\00\21\00\1b\00\17\00\16\00\14\00\11\00\14\00\18\00\1a\00\15\00\19\00\14\00\13\00\14\00\17\00\12\00\15\00\19\00\1b\00\11\00\1c\00\23\00\12\00\18\00\0c\00\14\00\0e\00\12\00\10\00\1c\00\0e\00\0c\00\1c\00\10\00\15\00\11\00\10\00\11\00\0a\00\16\00\0c\00\0e\00\0d\00\10\00\11\00\1b\00\0b\00\10\00\0e\00\0e\00\0d\00\15\00\0d\00\0b\00\0c\00\0e\00\13\00\10\00\12\00\12\00\0f\00\0d\00\10\00\07\00\08\00\11\00\10\00\0e\00\0f\00\0f\00\0b\00\0c\00\0f\00\0e\00\12\00\0d\00\0c\00\08\00\12\00\10\00\0d\00\0b\00\0b\00\0f\00\1c\00\11\00\0c\00\0c\00\0b\00\09\00\12\00\0d\00\0f\00\0b\00\12\00\0e\00\0a\00\10\00\09\00\04\00\0b\00\09\00\11\00\10\00\09\00\0d\00\10\00\08\00\10\00\08\00\08\00\0d\00\0f\00\12\00\12\00\10\00\0e\00\10\00\0a\00\10\00\0b\00\0b\00\0a\00\0c\00\0c\00\0a\00\0e\00\10\00\0f\00\10\00\0d\00\0a\00\11\00\0b\00\12\00\0a\00\0b\00\0e\00\0b\00\12\00\0e\00\0f\00\0f\00\0e\00\10\00\0e\00\0e\00\11\00\0c\00\15\00\0e\00\11\00\15\00\0f\00\0f\00\0e\00\0e\00\13\00\0d\00\17\00\17\00\10\00\0e\00\0f\00\0b\00\0e\00\06\00\10\00\11\00\10\00\12\00\14\00\16\00\0f\00\13\00\11\00\12\00\14\00\0e\00\0e\00\13\00\19\00\12\00\16\00\0f\00\13\00\19\00\13\00\08\00\14\00\16\00\13\00\08\00\11\00\0b\00\15\00\0b\00\0f\00\18\00\18\00\0d\00\11\00\12\00\11\00\13\00\0c\00\0b\00\14\00\0c\00\15\00\12\00\15\00\11\00\16\00\0d\00\0e\00\0e\00\10\00\0a\00\11\00\0a\00\0d\00\10\00\0e\00\08\00\17\00\10\00\0f\00\08\00\12\00\12\00\13\00\0d\00\18\00\19\00\0b\00\0b\00\0f\00\0a\00\0e\00\0c\00\11\00\12\00\12\00\11\00\14\00\0a\00\0b\00\14\00\0d\00\10\00\0b\00\13\00\0c\00\0e\00\12\00\0d\00\0d\00\11\00\0c\00\0e\00\14\00\09\00\0d\00\10\00\13\00\12\00\0d\00\11\00\0d\00\09\00\0f\00\10\00\13\00\10\00\10\00\10\00\0e\00\0f\00\13\00\16\00\10\00\17\00\0b\00\0a\00\0c\00\15\00\0b\00\11\00\0e\00\19\00\0f\00\0d\00\0b\00\0b\00\0f\00\15\00\18\00\0b\00\11\00\0e\00\15\00\10\00\08\00\0a\00\0d\00\0d\00\0e\00\0f\00\0f\00\0d\00\0f\00\08\00\0c\00\13\00\12\00\10\00\10\00\0f\00\0d\00\07\00\08\00\0f\00\0f\00\10\00\12\00\0c\00\0a\00\16\00\0f\00\10\00\0c\00\13\00\11\00\12\00\0a\00\09\00\0d\00\0c\00\09\00\11\00\0f\00\0e\00\16\00\10\00\15\00\0d\00\09\00\11\00\0d\00\04\00\0c\00\11\00\0e\00\0d\00\10\00\0d\00\14\00\0a\00\0c\00\0a\00\0f\00\0d\00\10\00\08\00\0c\00\10\00\0b\00\0c\00\13\00\0f\00\0e\00\0d\00\0c\00\0d\00\09\00\0b\00\09\00\07\00\13\00\0c\00\0f\00\0b\00\06\00\08\00\09\00\0f\00\09\00\03\00\07\00\0e\00\11\00\09\00\0c\00\0c\00\09\00\0a\00\0a\00\0a\00\0d\00\08\00\0d\00\07\00\07\00\0a\00\04\00\03\00\0a\00\06\00\07\00\0a\00\0a\00\09\00\08\00\08\00\0f\00\0a\00\05\00\07\00\04\00\0b\00\08\00\08\00\0f\00\05\00\08\00\06\00\04\00\07\00\0b\00\0c\00\0c\00\07\00\02\00\09\00\08\00\02\00\0a\00\0e\00\07\00\07\00\04\00\02\00\08\00\06\00\03\00\08\00\03\00\06\00\06\00\07\00\04\00\06\00\06\00\0d\00\04\00\05\00\06\00\04\00\05\00\04\00\06\00\09\00\03\00\04\00\04\00\07\00\08\00\03\00\05\00\03\00\04\00\03\00\08\00\04\00\08\00\08\00\06\00\08\00\06\00\04\00\06\00\05\00\03\00\03\00\03\00\06\00\04\00\05\00\05\00\03\00\08\00\03\00\01\00\03\00\03\00\04\00\03\00\05\00\08\00\04\00\00\00\04\00\05\00\01\00\04\00\00\00\03\00\01\00\04\00\01\00\01\00\01\00\04\00\02\00\01\00\04\00\03\00\02\00\04\00\02\00\03\00\02\00\02\00\01\00\02\00\05\00\03\00\01\00\02\00\01\00\04\00\01\00\01\00\02\00\01\00\01\00\00\00\00\00\01\00\02\00\01\00\02\00\02\00\04\00\02\00\01\00\03\00\01\00\01\00\00\00\01\00\00\00\01\00\00\00\03\00\02\00\01\00\00\00\01\00\00\00\01\00\01\00\01\00\01\00\00\00\00\00\00\00\01\00\00\00\01\00\00\00\00\00\01\00\01\00\00\00\00\00\00\00\01\00\01\00\01\00\02\00\00\00\00\00\00\00\01\00\01\00\00\00\00\00\00\00\01\00\00\00\00\00\01\00\00\00\00\00\02\00\00\00\01\00\00\00\00\00\01\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\01\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\01\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\01\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\01\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\01\00\00\00\d3\09 # 2068, 1 Unknown Tag & Data
+(0043,102a) OB (not loaded)                             # 5648, 1 Unknown Tag & Data
+(0043,102c) SS 0                                        #   2, 1 Unknown Tag & Data
+(0043,102d) SH [sc]                                     #   2, 1 Unknown Tag & Data
+(0043,102e) SH (no value available)                     #   0, 0 Unknown Tag & Data
+(0043,102f) SS 0                                        #   2, 1 Unknown Tag & Data
+(0043,1030) SS 0                                        #   2, 1 Unknown Tag & Data
+(0043,1032) SS 2                                        #   2, 1 Unknown Tag & Data
+(0043,1033) FL 0                                        #   4, 1 Unknown Tag & Data
+(0043,1034) IS [0]                                      #   2, 1 Unknown Tag & Data
+(0043,1035) UL 0                                        #   4, 1 Unknown Tag & Data
+(0043,1036) UL 0                                        #   4, 1 Unknown Tag & Data
+(0043,1037) UL 0                                        #   4, 1 Unknown Tag & Data
+(0043,1038) FL 0\0\0\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0 #  96,24 Unknown Tag & Data
+(0043,1039) IS [0\2097184\0\0]                          #  14, 4 Unknown Tag & Data
+(0043,1060) IS [0\0\0\0\0\0\0\0]                        #  16, 8 Unknown Tag & Data
+(0043,1061) UI [1.2.124.113540.0.201411052775.3.52805]  #  38, 1 Unknown Tag & Data
+(0043,1062) SH [24995]                                  #   6, 1 Unknown Tag & Data
+(0043,106f) DS [0\0\0\0]                                #   8, 4 Unknown Tag & Data
+(0043,107d) US 1                                        #   2, 1 Unknown Tag & Data
+(0043,1080) LO [iMNS:0\B:0\A:\GBGLJiSluEEprId8mIZh97VyHE23OAeC\2c0000001498eb0f\UNO:\GBGL6d8oxt42Mg3J9g5ObVMYT832YTQs\5300000013db580f] # 118, 8 Unknown Tag & Data
+(0043,1081) LO [C-GE_CTspineArray]                      #  18, 1 Unknown Tag & Data
+(0043,1082) LO [SRMode=100\GCoilType=2\gradientAmp=8919\lineFreq=50\RFampType=13\DerateGrad=Yes] #  80, 6 Unknown Tag & Data
+(0043,1083) DS [1\1]                                    #   4, 2 Unknown Tag & Data
+(0043,1084) LO [10000\0\-1\0\\NO\]                      #  18, 7 Unknown Tag & Data
+(0043,1088) UI [1.2.840.113619.2.388.57473.14116885.13499.1593061356.160] #  56, 1 Unknown Tag & Data
+(0043,1089) LO [FDA\IEC_FIRST_LEVEL\IEC_FIRST_LEVEL]    #  36, 3 Unknown Tag & Data
+(0043,108a) CS [COL]                                    #   4, 1 Unknown Tag & Data
+(0043,1090) LO [WHOLE_BODY_6_MIN\LOCAL_PEAK_6_MIN\PARTIAL_BODY_6MIN] #  52, 3 Unknown Tag & Data
+(0043,1091) DS [1.332\2.66366\1.3318]                   #  20, 3 Unknown Tag & Data
+(0043,1095) LO (no value available)                     #   0, 0 Unknown Tag & Data
+(0043,1096) CS [PRODUCT]                                #   8, 1 Unknown Tag & Data
+(0043,1097) LO [2\1\1.5 0.2 0.2 5 32 0.4 1.05\1.5 0.2 0.2 5 64 0.4 1.05\1.5 0.2 0.2 5 32 0.4 1.05\100\0\0\rev=1;a=75;b=2;c=32;d=8;e=3;f=2;g=1;h=35] # 130, 9 Unknown Tag & Data
+(0043,109a) IS [1]                                      #   2, 1 Unknown Tag & Data
+(0043,10aa) LO [\rev=2;g=192.0;h=10.0;i=0.9]            #  28, 2 Unknown Tag & Data
+(0857,0010) LO [Nautilus Medical]                       #  16, 1 PrivateCreator
+(0857,1000) LO [NautilusRMN]                            #  12, 1 Unknown Tag & Data
+(0857,1001) LO [mr01]                                   #   4, 1 Unknown Tag & Data
+(0857,1002) LO [2020-06-25T15:42:47.247]                #  24, 1 Unknown Tag & Data
+(7fe0,0000) UL 524300                                   #   4, 1 GenericGroupLength
+(7fe0,0010) OW (not loaded)                             # 524288, 1 PixelData
